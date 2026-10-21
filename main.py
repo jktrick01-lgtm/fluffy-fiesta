@@ -41,7 +41,7 @@ urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 # =========================================================
 # Config
 # =========================================================
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "8702508093:AAFrqo7guvR0fmXYqHrR8ROqqrjoSN_u6m8")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "8430398708:AAGzAVfOtn31Un4VG5o1V6L52oRUGc7h0q4")
 ADMIN_IDS = [int(x.strip()) for x in os.environ.get("ADMIN_IDS", "8753914631").split(",") if x.strip().isdigit()]
 
 THREADS = int(os.environ.get("THREADS", "30"))
